@@ -1,7 +1,6 @@
 # 🚀 TailAdmin Laravel Port  
 [![Laravel](https://img.shields.io/badge/Laravel-11.x-red.svg?logo=laravel)](https://laravel.com)  
-[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-38B2AC.svg?logo=tailwind-css)](https://tailwindcss.com)  
-[![Webpack](https://img.shields.io/badge/Webpack-Laravel%20Mix-1C78C0.svg?logo=webpack)](https://laravel-mix.com)  
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-38B2AC.svg?logo=tailwind-css)](https://tailwindcss.com)    
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](#-license)
 
 > A Laravel port of the **TailAdmin HTML Template**, using the **same Tailwind CSS system**, rebuilt with **Blade templating** and **Laravel Mix (Webpack)** for modern, maintainable admin dashboards.
@@ -23,15 +22,12 @@ project/
 │   └── ...
 ├── resources/
 │   ├── views/
-│   │   ├── layouts/          # Master layout (header, sidebar, footer)
-│   │   ├── components/       # Reusable Blade components
+│   │   ├── layouts/          # Master layout (header, sidebar, footer, component)
 │   │   ├── pages/            # Ported HTML pages
-│   │   └── welcome.blade.php # Example entry page
 │   ├── css/
 │   └── js/
 ├── public/
 │   └── assets/               # Compiled CSS & JS (Webpack output)
-├── webpack.mix.js
 └── package.json
 ```
 
@@ -80,7 +76,6 @@ Now visit [http://localhost:8000](http://localhost:8000) 🎉
 
 ✅ **TailAdmin UI** integrated with Laravel  
 ✅ Clean **Blade layouts & components**  
-✅ **Laravel Mix (Webpack)** asset bundling  
 ✅ Ready-to-use **dashboard structure**  
 ✅ Simple to **extend and customize**  
 
@@ -90,7 +85,6 @@ Now visit [http://localhost:8000](http://localhost:8000) 🎉
 
 - **CSS / JS:** Edit files in `resources/css` and `resources/js`.  
 - **Layouts:** Modify `resources/views/layouts/app.blade.php`.  
-- **Components:** Add UI fragments under `resources/views/components/`.  
 - **New Pages:**  
 
   ```blade
@@ -112,10 +106,8 @@ Please refer to [TailAdmin License](https://tailadmin.com/license) for details.
 
 ## 👨‍💻 Author
 
-**Your Name**  
-Laravel + Tailwind Developer  
-📧 [youremail@example.com]  
-🌐 [yourwebsite.com]  
+**Yogha Pradana**   
+📧 [andreyrjt@gmail.com]  
 
 ---
 
