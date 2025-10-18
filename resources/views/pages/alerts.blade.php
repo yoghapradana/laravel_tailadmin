@@ -6,7 +6,9 @@
   x-init="
   darkMode = JSON.parse(localStorage.getItem('darkMode'));
   $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))"
-  :class="{'dark bg-gray-900': darkMode === true}"
+  :class="{'dark bg-gray-900': darkMode === true};
+  // hide preloader after DOM and resources are ready
+  window.onload = () => setTimeout(() => loaded = false, 400);"
 @endsection
 @section('content')
   <div class="mx-auto max-w-(--breakpoint-2xl) p-4 md:p-6">
